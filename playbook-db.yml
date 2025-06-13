@@ -1,0 +1,8 @@
+---
+
+- name: Instalar PostgreSQL 17.5
+  hosts: db
+  become: yes
+
+  roles:
+    - postgresql
